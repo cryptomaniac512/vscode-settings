@@ -1,0 +1,61 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "command": "workbench.action.quickOpenNavigateNext",
+        "key": "ctrl+n",
+        "when": "inQuickOpen"
+    },
+    {
+        "command": "workbench.action.quickOpenNavigatePrevious",
+        "key": "ctrl+p",
+        "when": "inQuickOpen"
+    },
+    {
+        "command": "editor.action.triggerSuggest",
+        "key": "ctrl+x ctrl+o",
+        "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "command": "workbench.action.quickOpen",
+        "key": "ctrl+p",
+        "when": "!terminalFocus && !suggestWidgetVisible && !inQuickOpen"
+    },
+    {
+        "command": "-workbench.action.quickOpen",
+        "key": "ctrl+p"
+    },
+    {
+        "command": "workbench.action.showCommands",
+        "key": "Alt+x"
+    },
+    {
+        "key": "ctrl+-",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "command": "-editor.action.commentLine",
+        "key": "ctrl+/",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+=",
+        "command": "-workbench.action.zoomIn"
+    },
+    {
+        "key": "ctrl+=",
+        "command": "-workbench.action.zoomIn"
+    },
+    {
+        "key": "ctrl+-",
+        "command": "-workbench.action.zoomOut"
+    },
+    {
+        "command": "workbench.files.action.showActiveFileInExplorer",
+        "key": "ctrl+e"
+    },
+    {
+        "command": "-workbench.action.quickOpen",
+        "key": "ctrl+e"
+    }
+]

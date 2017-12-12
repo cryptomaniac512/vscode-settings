@@ -1,0 +1,89 @@
+{
+    "editor.fontFamily": "'Roboto Mono'",
+    "editor.fontSize": 14,
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "vue"
+    ],
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.cache": true,
+        "**/.DS_Store": true,
+        "**/.eggs": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/*.egg-info": true,
+        "**/*~": true,
+        "**/build": true,
+        "**/CVS": true,
+        "**/dist": true
+    },
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.venvPath": "~/Devel/Envs",
+    "window.menuBarVisibility": "toggle",
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Nord",
+    "workbench.panel.location": "bottom",
+    "vim.enableNeovim": true,
+    "vim.foldfix": true,
+    "vim.handleKeys": {
+        "<C-b>": false,
+        "<C-e>": false,
+        "<C-f>": false,
+        "<C-k>": false
+        // "<C-w>": false
+    },
+    "vim.history": 500,
+    "vim.hlsearch": true,
+    "vim.leader": "\\",
+    "vim.statusBarColorControl": true,
+    "vim.useSystemClipboard": true,
+
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": ["leader", "k"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "editor.action.showHover",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "d"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "editor.action.goToDeclaration",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "r"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "editor.action.rename",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "n"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "editor.action.referenceSearch.trigger",
+                    "args": []
+                }
+            ]
+        }
+    ]
+}
